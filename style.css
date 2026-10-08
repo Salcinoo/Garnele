@@ -1,5 +1,6 @@
 body 
 {
+  width: 100%;
   background-color: #ADD8E7; 
   color: black;
   font-family: Merriweather;
@@ -10,13 +11,21 @@ body
 h1
 {
   font-weight: bold;
-  color: green;
+  color: blue;
 }
 
-.container {
-  padding: 20px;
-  margin-bottom: 12px;
+h2
+{
+  font-weight: bold;
+  color: blue;
 }
+h3
+{
+  font-weight: bold;
+  color: blue;
+}
+
+
 
 .rot {
   background-color: #f4aaaa;
@@ -25,3 +34,11 @@ h1
 .blau {
   background-color: #a9c9f5;
 }
+
+.container {
+  min-width: 100%;
+  justify-content: center;
+  background-image: url("https://t3.ftcdn.net/jpg/09/10/50/56/360_F_910505620_L9Wuls5opeDNOqqPbGR0qONh3I0U7mmZ.jpg");
+  background-size: cover;
+  padding: 5%;
+  margin-bottom: 12px;
